@@ -17,9 +17,16 @@ def fact(a):
 	else:
 		return a * fact(a-1)
 
+def divison(n,d):
+    if d!=0:
+        return n/d
+    else:
+        return "Divison Not Possible"
+
 if __name__=='__main__':
     a = int(sys.argv[1])
     b = int(sys.argv[2])
     print(add(a,b))
     print(sub(a,b))
     print(add_fact(a,b))
+    print(divison(a,b))
