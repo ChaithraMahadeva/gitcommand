@@ -14,8 +14,8 @@ def facofsub(a,b):
     return factorial(diff)
 
 def factorial(c):
-    if(c==0)
-    return 1
+    if c==0:
+        return 1
     return c*factorial(c-1)
     
 
