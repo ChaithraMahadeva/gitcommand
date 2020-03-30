@@ -7,8 +7,10 @@ def sub(a,b):
     return a-b
 
 def facofsub(a,b):
-    if(a>b) diff=a-b
-    else diff=b-a
+    if a>b: 
+        diff=a-b
+    else: 
+        diff=b-a
     return factorial(diff)
 
 def factorial(c):
