@@ -6,12 +6,12 @@ def add(a,b):
 def sub(a,b):
     return a-b
 
-def facofsub(a,b)
+def facofsub(a,b):
     if(a>b) diff=a-b
     else diff=b-a
     return factorial(diff)
 
-def factorial(c)
+def factorial(c):
     if(c==0)
     return 1
     return c*factorial(c-1)
