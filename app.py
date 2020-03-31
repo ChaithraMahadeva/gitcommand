@@ -16,7 +16,13 @@ def fact(a):
 		return 1
 	else:
 		return a * fact(a-1)
-    
+
+def divison(n,d):
+    if d!=0:
+        return n/d
+    else:
+        return "Divison Not Possible"
+
 def facofsub(a,b):
     if a>b: 
         diff=a-b
@@ -29,9 +35,6 @@ def factorial(c):
         return 1
     return c*factorial(c-1)
     
-
-
-
 if __name__=='__main__':
     a = int(sys.argv[1])
     b = int(sys.argv[2])
