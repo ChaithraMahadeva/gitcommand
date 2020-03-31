@@ -23,6 +23,18 @@ def divison(n,d):
     else:
         return "Divison Not Possible"
 
+def facofsub(a,b):
+    if a>b: 
+        diff=a-b
+    else: 
+        diff=b-a
+    return factorial(diff)
+
+def factorial(c):
+    if c==0:
+        return 1
+    return c*factorial(c-1)
+    
 if __name__=='__main__':
     a = int(sys.argv[1])
     b = int(sys.argv[2])
@@ -30,3 +42,5 @@ if __name__=='__main__':
     print(sub(a,b))
     print(add_fact(a,b))
     print(divison(a,b))
+    print(facofsub(a,b))
+
