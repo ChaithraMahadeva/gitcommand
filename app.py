@@ -40,4 +40,6 @@ if __name__=='__main__':
     b = int(sys.argv[2])
     print(add(a,b))
     print(sub(a,b))
+    print(add_fact(a,b))
+    print(divison(a,b))
     print(facofsub(a,b))
