@@ -34,6 +34,9 @@ def factorial(c):
     if c==0:
         return 1
     return c*factorial(c-1)
+
+def multiplication(a,b):
+    return a*b
     
 if __name__=='__main__':
     a = int(sys.argv[1])
@@ -43,4 +46,4 @@ if __name__=='__main__':
     print(add_fact(a,b))
     print(divison(a,b))
     print(facofsub(a,b))
-
+    print(multiplication(a,b))
